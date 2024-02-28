@@ -27,8 +27,9 @@ S0 = 100
 T = 1
 sigma = 15
 
-# Calculating data
-K = np.arange(50, 150, 0.1)  # strike
+
+
+K = np.arange(50, 150, 0.1)
 ImpVol = np.zeros(len(K))
 
 for i, k in enumerate(K):
